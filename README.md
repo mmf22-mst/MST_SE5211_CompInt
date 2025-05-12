@@ -1,5 +1,5 @@
 # MST_SE5211_CompInt
-Final project for 2025 Spring SE5211 Computational Intelligence
+Final project for 2025 Spring SE5211 Computational Intelligence.  Greetings Dr. Corns!
 
 Example usage
 ---
@@ -10,3 +10,9 @@ Then, to reproduce the DMoN results on the [Cora graph](https://ieee-dataport.or
 ```python
 python3 dmon_barebones.py --dataset='cora' --iteration=1 --clustmod=0
 ```
+
+'dataset' options can be found in dmon_barebones.py.
+
+'iteration' is simply a counter used to append to output filenames.
+
+'clustmod' is a scalar to manually change the number of clusters that the algorithm calculates.  '0' means that the number of labels given in the dataset file will be used.
